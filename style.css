@@ -35,11 +35,11 @@
 }
 
   body.dark {
-    background: #292c35;
+    background: #063fe9;
     
   }
 
-  #body.dark .p .lead{
+  p .lead-white{
     color: white;
   }
   
