@@ -8,12 +8,23 @@
 body{
   background-color: var(--body-bg);
   color: var(--body-color);
-}
+ 
 
+}
+ 
 
 body.dark {
   background: #252525;
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
+
 
 body.lead{
   color: var(--body-color)
@@ -21,6 +32,7 @@ body.lead{
 
 .lead.dark {
   color: var(--body-bg);
+  --bs-navbar-brand-font-size: 1.25rem;
 }
 
 
