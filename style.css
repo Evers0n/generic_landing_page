@@ -1,3 +1,29 @@
+
+:root{
+  --body-bg:#fafafa;
+  --body-color: #070707;
+}
+
+
+body{
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+
+body.dark {
+  background: #252525;
+}
+
+body.lead{
+  color: var(--body-color)
+}
+
+.lead.dark {
+  color: var(--body-bg);
+}
+
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -23,25 +49,12 @@
     margin: 100px auto;
 }
 
-.darkmode {
-    background-color: #292929;
-    color:antiquewhite;
-}
-
 .form-check {
     cursor: pointer;
     margin-top: 30px;
     margin-left: 30px;
 }
 
-  body.dark {
-    background: #292c35;
-    
-  }
-
-  #body.dark .p .lead{
-    color: white;
-  }
   
   .checkbox {
     opacity: 0;
