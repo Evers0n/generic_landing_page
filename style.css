@@ -1,6 +1,6 @@
 
 :root{
-  --body-bg:#fafafa;
+  --body-bg:#f7f7f7;
   --body-color: #070707;
 }
 
@@ -41,9 +41,6 @@ button.btn.btn-outline-secondary {
   
 }
 
-/* .btn.btn-outline-secondary.dark {
-  color: var(--body-bg);
-} */
 
 
 .carousel-item {
