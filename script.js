@@ -15,6 +15,7 @@ checkbox.addEventListener ('change', () => {
 })
 
     function mudarModo(){
+        
         document.body.classList.toggle('dark')
         document.body.classList.toggle('lead')
         document.body.classList.toggle('btn-outline-secondary')
